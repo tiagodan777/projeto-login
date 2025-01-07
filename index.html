@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/pc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+
             </div>
             <div id="formualrio">
                 <h1>Login</h1>
                 <p>Sê bem-vindo(a) novamente. Faz login para acessar a tua conta e poder fazer as configurações no teu ambiente</p>
                 <form action="login.php" method="post">
-                    
+                    <div class="input-form"><span class="material-symbols-outlined">person</span><input type="email" name="email" id="email" class="data" placeholder="o teu email"></div>
+                    <div class="input-form"><span class="material-symbols-outlined">vpn_key</span><input type="password" name="password" id="password" class="data"></div>
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci-me da password</a>
                 </form>
             </div>
         </section>

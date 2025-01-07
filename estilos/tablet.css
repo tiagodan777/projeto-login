@@ -1,9 +1,76 @@
 @charset "UTF-8";
 
-/* 
+:root {
+    --cor0: #49a09d;
+    --cor1: #5f2c82;
+    --cor2: #ffffff;
+}
 
-Paleta de cores 
-    Verde: #49a09d
-    Violeta: #5f2c82
+main {
+    width: 70vw;
+    height: 330px;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+}
 
-*/
+h1 {
+    margin: 10px;
+}
+
+p {
+    text-align: left;
+    padding: 7px;
+}
+
+div#imagem {
+    float: left;
+    width: 30%;
+    height: 330px;
+    background-color: var(--cor3);
+    background-image: url('../imagens/metal.jpg');
+    background-position: center center;
+    padding: 10px;
+    margin: -20px -10px -10px -10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+div#formulario {
+    float: right;
+
+}
+
+form {
+    float: right;
+    width: 68%;
+}
+
+input.data {
+    padding: 11px 11px 11px 5px;
+    border-radius: 7px;
+    border: none;
+    width: 87.5%;
+    background-color: #a7dddb;
+}
+
+input#email {
+    left: 54%;
+}
+
+input#password {
+    left: 54%;
+}
+
+#entrar {
+    width: 98%;
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+}

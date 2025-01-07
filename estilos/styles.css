@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    width: 280px;
+    width: 270px;
     height: 600px;
     background-color: var(--cor3);
     border-radius: 20px;
@@ -30,7 +30,7 @@ main {
 }
 
 div#imagem {
-    width: 280px;
+    width: 270px;
     height: 250px;
     background-color: var(--cor3);
     background-image: url('../imagens/metal.jpg');
@@ -51,19 +51,84 @@ p {
 }
 
 div.input-form {
-    background-color: red;
+    background-color: var(--cor1);
     margin: 10px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+div#div1 {
+    position: relative;
+}
+
+div#div2 {
+    position: relative;
 }
 
 span.material-symbols-outlined {
-    background-color: var(--cor1);
     color: var(--cor3);
     padding: 5px;
-    margin-top: 10px;
 }
 
 input.data {
-    padding: 7px;
+    padding: 11px 11px 11px 5px;
     border-radius: 7px;
     border: none;
+    width: 185px;
+    background-color: #a7dddb;
+}
+
+input#email {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+input#password {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+.botao {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor0);
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#entrar {
+    width: 260px;
+}
+
+#entrar:hover {
+    background-color: #265251;
+    cursor: pointer;
+}
+
+#esqueci {
+    font-weight: lighter;
+    color: #265251;
+    background-color: white;
+    border: 1px solid var(--cor0);
+    text-align: center;
+}
+
+#esqueci:hover {
+    background-color: #5ececa;
+    color: white;
+}
+
+#email-icon {
+    font-size: 1em;
+    color: var(--cor0);
 }
